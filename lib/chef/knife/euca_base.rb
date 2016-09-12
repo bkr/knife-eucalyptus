@@ -17,6 +17,8 @@
 #
 
 require File.expand_path('../../../knife-eucalyptus/highline_patch', __FILE__)
+require File.expand_path('../../../knife-eucalyptus/fog_patch', __FILE__)
+
 require 'chef/knife'
 
 class Chef
